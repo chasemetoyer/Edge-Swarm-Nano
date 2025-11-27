@@ -6,7 +6,7 @@ Edge-Swarm-Nano is a native iOS application that demonstrates the power of **On-
 
 ## 📸 Demo
 
-| **Intent Routing** | **Sentiment Analysis** | **Entity Extraction** |
+| **Intent Routing** |            **Sentiment Analysis** |           **Entity Extraction** |
 
 
 
