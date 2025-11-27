@@ -8,7 +8,10 @@ Edge-Swarm-Nano is a native iOS application that demonstrates the power of **On-
 
 | **Intent Routing** | **Sentiment Analysis** | **Entity Extraction** |
 |:---:|:---:|:---:|
-| <img src="path/to/summarize_screenshot.png" width="250"> | <img src="path/to/sentiment_screenshot.png" width="250"> | <img src="path/to/extract_screenshot.png" width="250"> |
+| <img src=<img width="1320" height="2868" alt="simulator_screenshot_48749D82-1F6E-461F-9A4B-41FD67D18FCD" src="https://github.com/user-attachments/assets/31031b18-ee45-4735-9d8d-a19bde9983cb" />
+> | <img src="path/to/sentiment_screenshot.png"<img width="1320" height="2868" alt="simulator_screenshot_1EA46260-9450-4CE6-AC6A-DA6AAF6EC883" src="https://github.com/user-attachments/assets/543578ee-4293-4490-9632-94b5eb13acf5" />
+ width="250"> | <<img width="1320" height="2868" alt="simulator_screenshot_9848F2F1-E7EA-49BB-BB2F-2CFA8DCAF57D" src="https://github.com/user-attachments/assets/c9a511e8-d5a8-4ae5-9ac0-6212ed3c2ae5" />
+> |
 
 > *The app automatically detects that the first text is a news article (Summarize), the second is a review (Sentiment), and the third contains personal data (Extract).*
 
