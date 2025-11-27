@@ -10,6 +10,18 @@ import NaturalLanguage
 
 class NLPService {
     
+    // MARK: - Language Detection
+    func detectLanguage(text: String) -> String {
+        let recognizer = NLLanguageRecognizer()
+        recognizer.processString(text)
+        
+        guard let language = recognizer.dominantLanguage else {
+            return "Unknown"
+        }
+        
+        return Locale.current.localizedString(forLanguageCode: language.rawValue) ?? language.rawValue
+    }
+    
     // MARK: - Sentiment Analysis
     func analyzeSentiment(text: String) -> String {
         // 🚀 NEURAL ENGINE: Sentiment Analysis
