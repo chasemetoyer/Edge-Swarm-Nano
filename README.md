@@ -7,9 +7,9 @@ Edge-Swarm-Nano is a native iOS application that demonstrates the power of **On-
 ## 📸 Demo
 
 | **Intent Routing** | **Sentiment Analysis** | **Entity Extraction** |
-<img width="1080" height="1000" alt="simulator_screenshot_FD0D6AD4-5B8F-4F38-917B-9B97C4E4FF09" src="https://github.com/user-attachments/assets/987f128f-e8df-4af0-ae81-1a6e9df89bf2" />
-<img width="1080" height="1000" alt="simulator_screenshot_8B8E3437-22B9-48AA-95C7-064A907105C2" src="https://github.com/user-attachments/assets/777f46a7-6dd7-4486-818a-8ff4a9f7e0ee" />
-<img width="1080" height="1000" alt="simulator_screenshot_3AE3DC7A-F7C2-4716-9EAA-61995E8E3998" src="https://github.com/user-attachments/assets/51a13bea-5ccf-4650-9cf4-862f7b6bae2f" />
+<img width="280" height="250" alt="simulator_screenshot_FD0D6AD4-5B8F-4F38-917B-9B97C4E4FF09" src="https://github.com/user-attachments/assets/987f128f-e8df-4af0-ae81-1a6e9df89bf2" />
+<img width="280" height="250" alt="simulator_screenshot_8B8E3437-22B9-48AA-95C7-064A907105C2" src="https://github.com/user-attachments/assets/777f46a7-6dd7-4486-818a-8ff4a9f7e0ee" />
+<img width="280" height="250" alt="simulator_screenshot_3AE3DC7A-F7C2-4716-9EAA-61995E8E3998" src="https://github.com/user-attachments/assets/51a13bea-5ccf-4650-9cf4-862f7b6bae2f" />
 
 
 > *The app automatically detects that the first text is a news article (Summarize), the second is a review (Sentiment), and the third contains personal data (Extract).*
