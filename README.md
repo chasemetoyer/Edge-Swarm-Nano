@@ -58,4 +58,3 @@ The app follows a strict **Router-Processor** pattern:
 ## 👨‍💻 Author
 
 **Chase Metoyer**
-*AI Engineer & iOS Developer*
