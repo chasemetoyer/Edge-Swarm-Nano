@@ -12,6 +12,9 @@ class NLPService {
     
     // MARK: - Sentiment Analysis
     func analyzeSentiment(text: String) -> String {
+        // 🚀 NEURAL ENGINE: Sentiment Analysis
+        // NLTagger uses a bi-directional LSTM (or Transformer on newer iOS) running on the ANE
+        // to understand context (e.g., "not bad" = positive).
         let tagger = NLTagger(tagSchemes: [.sentimentScore])
         tagger.string = text
         
@@ -37,6 +40,8 @@ class NLPService {
     
     // MARK: - Entity Extraction
     func extractEntities(text: String) -> String {
+        // 🚀 NEURAL ENGINE: Named Entity Recognition (NER)
+        // Automatically detects People, Places, and Organizations using on-device ML.
         let tagger = NLTagger(tagSchemes: [.nameType])
         tagger.string = text
         

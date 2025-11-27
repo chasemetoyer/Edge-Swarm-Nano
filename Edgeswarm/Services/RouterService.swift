@@ -34,6 +34,9 @@ class RouterService {
     ]
     
     func predictIntent(for text: String) async -> (intent: RouterIntent, confidence: Double) {
+        // 🚀 CORE FEATURE: Zero-Shot Classification via Neural Engine
+        // This call offloads vector embedding calculations to the device's ANE (Apple Neural Engine).
+        // It converts text into a 512-dimensional vector to understand semantic meaning.
         guard let embedding = NLEmbedding.sentenceEmbedding(for: .english) else {
             print("Error: NLEmbedding not available")
             return (.unknown, 0.0)
